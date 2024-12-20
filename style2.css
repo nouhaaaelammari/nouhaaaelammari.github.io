@@ -1,0 +1,184 @@
+/* Nouha EL Ammari */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    padding: 15px;
+    overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+    transition:color 0.3s ease;
+}
+nav a:hover{
+    color: #ffd700;
+}
+nav a img{
+    width: 10%;
+    height: auto;
+    float: left;
+}
+nav .onglets{
+    float: right;
+    margin-right: 20px;
+}
+header{
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+header h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+header h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+}
+section{
+    margin: 20px;
+    text-align: center;
+}
+.justified-text{
+    text-align: justify;
+}
+article{
+    display:inline-block;
+    float:left;
+    width: calc(33% - 20px);
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    vertical-align: top;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 700px;
+    text-align: center;
+}
+.nouha{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+iframe,audio{
+    width: 100%;
+    margin: 10px 0;
+}
+#video-css{
+    width: 100%;
+    /*margin: 10px 0;*/
+}
+.image-gallery{
+    text-align: center;
+    margin: 20px 0;
+}
+.image-gallery img{
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    vertical-align: top;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+    height: auto;
+}
+.image-gallery img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+form{
+    max-width: 550px;
+    display: block;
+    margin-top: 15px;
+    margin: 0 auto;
+    gap: 20px;
+    text-align: left;
+}
+input[type="text"],input[type="email"],textarea,select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input[type="radio"],input[type="checkbox"]{
+    margin-bottom: 10px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+button:hover{
+    background-color: #45a049;
+}
+footer{
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+    width: 100%;
+    float: left;
+}
+.left{
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0;
+}
+.right{
+    float: right;
+}
+.right a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3 ease;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 35px;
+}
+i{
+    font-size: 14px;
+}
+i:hover{
+    color: #ffd700;
+}
